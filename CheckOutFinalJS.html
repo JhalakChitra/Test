@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+    <head> 
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="JsFinal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    </head>
+
+    <style>
+       
+       .checkOut_Flex{
+        display: flex;
+         margin-left: 100px;
+        
+
+       }
+
+       .containerFlex{
+        display: flex;
+        width: 40vw ;
+        height: 20vh;
+        box-shadow: 1px 1px 1px 1px rgb(12 14 14 / 40%); 
+        padding: 10px;
+        margin-bottom: 10px;
+       }
+
+       #Image{
+        width: 6vw;
+        margin-top: 20px;
+        border-radius: 5px;
+       }
+
+       .dataContainer{
+        margin-left: 20px;
+       }
+
+      
+
+       .TotalContainer{
+        width: 33vw ;
+        height: 25vh;
+         box-shadow:1px 2px 4px 2px rgb(17 16 16 / 50%); 
+         margin-left: 30px;
+         padding-left: 20px;
+       }
+          
+       #Amount30587{
+        color: black;
+        font-weight: 100;
+       }
+
+       #PlaceButton{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+   margin-top: 24px
+       }
+       #icon{
+  color:  #009688;
+
+
+}
+
+    </style>
+    <body>
+        <header>
+            <a href="JsFinal.html"> <h4 id="shop">SHOPLANE</h4></a>
+            <ul id="list-head">
+             <a  href="JsFinal.html#section1"> <li style="margin-top:30px ;margin-left:45px">Clothings</li></a>
+             <a href="JsFinal.html#section2"> <li style="margin-top:30px ;margin-left:25px">Accessories</li></a>
+            </ul>
+
+           <i id="icon"  style="margin-top:20px ;margin-left:45px;" class="fa fa-search"><input  style="margin-top:30px" type="search" placeholder="search for clothing and accessories"></i>
+           <i id="icon"  style="margin-top:49px ;margin-left:45px" class="fa fa-shopping-cart"></i>
+           <i id="icon"   style="margin-top:49px ;margin-left:65px"class="fa fa-user-circle-o"></i>
+        </header>
+
+        <main>
+            <h1 style="margin-left: 100px;">Checkout</h1>
+            <p style="margin-left: 100px;">Total Items:4</p>
+           
+            <div class="checkOut_Flex" >
+                 
+                <div>
+                    <div class="containerFlex">
+                        <img id="Image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg"\ >
+                        <div class="dataContainer">
+                            <h3>Men Navy Blue Solid Sweatshirt</h3>
+                            <p>x1</p>
+                            <p >Amount Rs 399</p>
+                        </div>
+                    </div>
+
+                    <div class="containerFlex">
+                        <img id="Image"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg"\ >
+                        <div class="dataContainer">
+                            <h3>Men Navy Blue Solid Sweatshirt</h3>
+                            <p>x1</p>
+                            <p>Amount Rs 399</p>
+                        </div>
+                    </div>
+
+                    <div class="containerFlex">
+                        <img id="Image"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg"\ >
+                        <div class="dataContainer">
+                            <h3>Men Navy Blue Solid Sweatshirt</h3>
+                            <p>x1</p>
+                            <p>Amount Rs 399</p>
+                        </div>
+                    </div>
+
+                    <div class="containerFlex">
+                        <img id="Image"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/e533a691-3908-41b0-8307-1928a37d4ec41561362162650-Samsung-Galaxy-Fit-4801561362161527-1.jpg"\ >
+                        <div class="dataContainer">
+                            <h3>Men Navy Blue Solid Sweatshirt</h3>
+                            <p>x1</p>
+                            <p>Amount Rs 399</p>
+                        </div>
+                    </div>
+                </div>
+     
+
+                <div class="TotalContainer"> 
+                    <h1>Total Amount</h1>
+                    <p id="Amount30587"><span> Amount Rs </span> 30587</p>
+                <a href="OrderSuccess.html"><button id="PlaceButton">Place Order</button></a>
+
+                </div>
+
+            </div>
+            <footer>
+                <div class="div1"> <h2>Online Store</h2>
+                    <p>Men clothing</p>
+                    <p>Men clothing</p>
+                    <p>Men clothing</p>
+                    <p>Men clothing</p>
+                 </div>
+            </footer>
+        </main>
+    </body>
+</html>
